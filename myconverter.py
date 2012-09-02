@@ -33,12 +33,4 @@ if sys.argv[1] == "-hex2dec":
 	hex2dec(sys.argv[2])
 if sys.argv[1] == "-hex2bin":
 	hex2bin(sys.argv[2])
-else:
-	print "usage: ./%s.py [option] [code]" % sys.argv[0]
-	print "options :"
-	print "-dec2bin            converts decimal to binary"
-	print "-dec2hex            converts decimal to hexadecimal"
-	print "-hex2dec            converts hexadecimal to decimal (without the 0x)"
-	print "-hex2bin            converts hexadecimal to binary"
-	sys.exit()
 sys.exit()
